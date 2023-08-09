@@ -15,7 +15,7 @@ export async function fetchAddressReport(address, mslink) {
   };
 
   const headers = {
-    Authorization: `fmetoken token=${process.env.FMETOKEN}`,
+    Authorization: `fmetoken token=${process.env.ADDRESSFMETOKEN}`,
   };
 
   const config = { params, headers };
@@ -39,7 +39,7 @@ export async function fetchTileReport(tileNumber) {
   };
 
   const headers = {
-    Authorization: `fmetoken token=${process.env.FMETOKEN}`,
+    Authorization: `fmetoken token=${process.env.TILEFMETOKEN}`,
   };
 
   const config = { params, headers };

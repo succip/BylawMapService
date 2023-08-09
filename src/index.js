@@ -145,6 +145,7 @@ view.when(() => {
       tileNumber = event.results[0].results[0].name;
       txtInfo.text(`Tile number: ${tileNumber}`);
     }
+    spanDownloadLink.html("");
     enableBtnGenerate();
   });
 });

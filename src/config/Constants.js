@@ -25,4 +25,4 @@ export const ADDRESS_RESULT_SYMBOL = {
   },
 };
 
-export const SERVICE_URL = "https://gisdev.surrey.ca/fmedatadownload/BylawMapService";
+export const SERVICE_URL = "https://gisprod.surrey.ca/fmedatadownload/BylawMapService";
