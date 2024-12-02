@@ -41,6 +41,17 @@ body {
   display: none; /* Initially hidden */
 }
 
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #ffe6e6; /* Light red background */
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: inline-block; /* This will make the element inline-block */
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
